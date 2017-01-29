@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block title %} The next time {% endblock %}
+
+{% block content %}
+<p> In {{num_hours}}, it will be {{new_date}} </p>
+{% endblock %}
